@@ -12,7 +12,7 @@ module.exports = {
     aliases: ["cs", "market"],
     version: "1.0.1",
     role: 2,
-    author: "ArYAN (Refactored by Aminul Sordar)",
+    author: "Refactored by Aminul Sordar",
     shortDescription: { en: "📌 GoatStor - Your Command Marketplace" },
     longDescription: { en: "📌 Browse, search, and manage commands in GoatStor marketplace." },
     category: "market",
