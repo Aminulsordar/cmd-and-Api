@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "itemID": 1,
+      "itemName": "Goat CmdStore",
+      "type": "market",
+      "description": "Browse marketplace commands",
+      "authorName": "Aminul Sordar",
+      "rawID": "goat-cmdstore.js",
+      "views": 0,
+      "likes": 0,
+      "createdAt": "2025-09-04T12:00:00Z"
+    },
+    {
+      "itemID": 2,
+      "itemName": "Goat Inbox",
+      "type": "utility",
+      "description": "Check your inbox messages",
+      "authorName": "Aminul Sordar",
+      "rawID": "goat-inbox.js",
+      "views": 0,
+      "likes": 0,
+      "createdAt": "2025-09-04T12:05:00Z"
+    },
+    {
+      "itemID": 3,
+      "itemName": "Goat Jan",
+      "type": "AI",
+      "description": "Conversational AI",
+      "authorName": "Aminul Sordar",
+      "rawID": "goat-jan.js",
+      "views": 0,
+      "likes": 0,
+      "createdAt": "2025-09-04T12:10:00Z"
+    },
+    {
+      "itemID": 4,
+      "itemName": "Goat Pinterest",
+      "type": "utility",
+      "description": "Pinterest image search",
+      "authorName": "Aminul Sordar",
+      "rawID": "goat-pinterest.js",
+      "views": 0,
+      "likes": 0,
+      "createdAt": "2025-09-04T12:15:00Z"
+    },
+    {
+      "itemID": 5,
+      "itemName": "Goat Poli",
+      "type": "utility",
+      "description": "Political news & info",
+      "authorName": "Aminul Sordar",
+      "rawID": "goat-poli.js",
+      "views": 0,
+      "likes": 0,
+      "createdAt": "2025-09-04T12:20:00Z"
+    },
+    {
+      "itemID": 6,
+      "itemName": "Mirai Pinterest",
+      "type": "utility",
+      "description": "Mirai Pinterest search",
+      "authorName": "Aminul Sordar",
+      "rawID": "mirai-pinterest.js",
+      "views": 0,
+      "likes": 0,
+      "createdAt": "2025-09-04T12:25:00Z"
+    }
+  ]
+}
