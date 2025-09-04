@@ -1,4 +1,4 @@
-#cmd install cmdstore.js //=========================//
+//=========================//
 //  🐐 CmdStore Command    //
 //  Author: Aminul Sordar //
 //  Version: 1.0.1        //
