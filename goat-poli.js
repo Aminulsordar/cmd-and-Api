@@ -5,7 +5,7 @@ const path = require("path");
 module.exports = {
   config: {
     name: "poli",
-    aliases: ["pinterest"],
+    aliases: ["poli2"],
     version: "1.0.0",
     author: "Aminulsordar",
     countDown: 5,
