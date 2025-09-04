@@ -11,7 +11,7 @@ module.exports = {
     name: "cmdstore",
     aliases: ["cs", "market"],
     version: "1.0.1",
-    role: 2,
+    role: 0,
     author: "Aminul Sordar",
     shortDescription: { en: "📌 CmdStore - GitHub Command Marketplace" },
     longDescription: { en: "📌 Browse and search commands from GitHub dynamically." },
