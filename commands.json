@@ -87,6 +87,29 @@
       "views": 12,
       "likes": 10,
       "createdAt": "2025-09-04T12:05:00Z"
+    },
+    {
+      "itemID": 9,
+      "itemName": "mirai Jan",
+      "type": "AI",
+      "description": "Conversational AI",
+      "authorName": "Aminul Sordar",
+      "rawID": "mirai-jan.js",
+      "views": 23,
+      "likes": 12,
+      "createdAt": "2025-10-04T09:10:00Z"
+    },
+    {
+      "itemID": 10,
+      "itemName": "mirai Poli",
+      "type": "utility",
+      "description": "Political news & info",
+      "authorName": "Aminul Sordar",
+      "rawID": "mirai-poli.js",
+      "views": 100,
+      "likes": 76,
+      "createdAt": "2025-10-04T09:20:00Z"
     }
+        
   ]
 }
