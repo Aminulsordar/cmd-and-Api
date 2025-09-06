@@ -186,7 +186,18 @@
   "views": 0,
   "likes": 0,
   "createdAt": "2025-09-06T10:45:00Z"
-}
+},
+    {
+  "itemID": 18,
+  "itemName": "goat weather",
+  "type": "UTILITY",
+  "description": "Get live weather info with decorated text + dynamic weather card image, showing temperature, condition, humidity, wind, and update time",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-weather.js",
+  "views": 0,
+  "likes": 0,
+  "createdAt": "2025-09-06T11:00:00Z"
+    }
         
   ]
 }
