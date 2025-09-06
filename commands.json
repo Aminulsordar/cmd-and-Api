@@ -109,7 +109,18 @@
       "views": 100,
       "likes": 76,
       "createdAt": "2025-10-04T09:20:00Z"
-    }
+    },
+    {
+  "itemID": 11,
+  "itemName": "autotime",
+  "type": "utility",
+  "description": "Automatically sends current date and time in a styled format",
+  "authorName": "Aminul Sordar",
+  "rawID": "goat-autotime.js",
+  "views": 0,
+  "likes": 0,
+  "createdAt": "2025-09-06T10:00:00Z"
+}
         
   ]
 }
