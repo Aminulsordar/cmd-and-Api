@@ -1,7 +1,7 @@
 //=========================//
 //  🐐 CmdStore Command    //
 //  Author: Aminul Sordar //
-//  Version: 1.0.1        //
+//  Version: 1.0.2        //
 //=========================//
 
 const axios = require("axios");
@@ -10,7 +10,7 @@ module.exports = {
   config: {
     name: "cmdstore",
     aliases: ["cs", "market"],
-    version: "1.0.1",
+    version: "1.0.2",
     role: 0,
     author: "Aminul Sordar",
     shortDescription: { en: "📌 CmdStore - GitHub Command Marketplace" },
@@ -28,8 +28,7 @@ module.exports = {
       return message.reply(header + content + footer);
     };
 
-    const formatDateBD = (date) =>
-      new Date(date).toLocaleString("en-US", { timeZone: "Asia/Dhaka" });
+    const formatDateBD = (date) => new Date(date).toLocaleDateString("en-GB", { timeZone: "Asia/Dhaka" });
 
     //================ Handlers ================//
     const handleShow = async (id) => {
@@ -49,10 +48,8 @@ module.exports = {
 👨‍💻 Author    : ${cmd.authorName}
 🔗 Code       : https://github.com/Aminulsordar/cmd-and-Api/raw/main/${cmd.rawID}
 📅 Added      : ${formatDateBD(cmd.createdAt)}
-👀 Views      : ${cmd.views || 0}
-💝 Likes      : ${cmd.likes || 0}
 
-💡 Tip: Use 'cmdstore search <query>' to find more commands!
+💡 Tip: Use '${event.body} search <query>' to find more commands!
         `);
       } catch (err) {
         console.error(err);
@@ -74,7 +71,8 @@ module.exports = {
 🆔 ID         : ${cmd.itemID}
 ⚙️ Type       : ${cmd.type}
 📝 Description: ${cmd.description || "No description"}
-👨‍💻 Author    : ${cmd.authorName}`
+👨‍💻 Author    : ${cmd.authorName}
+📅 Added      : ${formatDateBD(cmd.createdAt)}`
           )
           .join("\n");
 
@@ -83,7 +81,7 @@ module.exports = {
 
 ${output}
 
-💡 Tip: Use 'cmdstore show <ID>' to see full details.
+💡 Tip: Use '${event.body} show <ID>' to see full details.
         `);
       } catch (err) {
         console.error(err);
