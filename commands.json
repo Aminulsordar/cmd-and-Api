@@ -170,6 +170,15 @@
   "authorName": "GoatStor",
   "rawID": "goat-hack.js",
   "createdAt": "2025-09-06"
+    },
+    {
+  "itemID": 20,
+  "itemName": "spy",
+  "type": "IMAGE",
+  "description": "Fetches and displays detailed user information with avatar in a decorated profile card style.",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-spy.js",
+  "createdAt": "2025-09-06"
     }
   ]
 }
