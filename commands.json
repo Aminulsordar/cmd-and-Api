@@ -112,7 +112,7 @@
     },
     {
   "itemID": 11,
-  "itemName": "autotime",
+  "itemName": "goat-autotime",
   "type": "utility",
   "description": "Automatically sends current date and time in a styled format",
   "authorName": "Aminul Sordar",
@@ -123,7 +123,7 @@
 },
   {
   "itemID": 12,
-  "itemName": "animevideo",
+  "itemName": "goat animevideo",
   "type": "VIDEO",
   "description": "Sends a random anime video fetched from API with styled messages",
   "authorName": "Aminul Sordar",
@@ -134,7 +134,7 @@
     },
     {
   "itemID": 13,
-  "itemName": "sing",
+  "itemName": "goat sing",
   "type": "AUDIO/VIDEO",
   "description": "Searches for a song and sends it as audio or video with decorated messages",
   "authorName": "ArYAN",
@@ -145,7 +145,7 @@
 },
     {
   "itemID": 14,
-  "itemName": "autolink",
+  "itemName": "goat autolink",
   "type": "AUDIO/VIDEO",
   "description": "Automatically downloads videos from a link and sends them with decorated messages",
   "authorName": "Aminulsordar",
@@ -156,7 +156,7 @@
     },
     {
   "itemID": 15,
-  "itemName": "shoti",
+  "itemName": "goat shoti",
   "type": "AUDIO/VIDEO",
   "description": "Fetches a random short video from your API and sends it with decorated messages",
   "authorName": "Aminulsordar",
@@ -164,7 +164,18 @@
   "views": 43,
   "likes": 23,
   "createdAt": "2025-09-06T10:20:00Z"
-    }
+    },
+    {
+  "itemID": 16,
+  "itemName": "goat gemini",
+  "type": "AI",
+  "description": "Chat with Gemini AI using your API and receive a fully decorated reply card with operator info, skills, and timestamp",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-gemini.js",
+  "views": 0,
+  "likes": 0,
+  "createdAt": "2025-09-06T10:35:00Z"
+}
         
   ]
 }
