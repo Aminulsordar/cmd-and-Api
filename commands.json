@@ -7,9 +7,7 @@
       "description": "Browse marketplace commands",
       "authorName": "Aminul Sordar",
       "rawID": "goat-cmdstore.js",
-      "views": 0,
-      "likes": 0,
-      "createdAt": "2025-09-04T12:00:00Z"
+      "createdAt": "2025-09-04"
     },
     {
       "itemID": 2,
@@ -18,9 +16,7 @@
       "description": "Check your inbox messages",
       "authorName": "Aminul Sordar",
       "rawID": "goat-inbox.js",
-      "views": 0,
-      "likes": 0,
-      "createdAt": "2025-09-04T12:05:00Z"
+      "createdAt": "2025-09-04"
     },
     {
       "itemID": 3,
@@ -29,9 +25,7 @@
       "description": "Conversational AI",
       "authorName": "Aminul Sordar",
       "rawID": "goat-jan.js",
-      "views": 0,
-      "likes": 0,
-      "createdAt": "2025-09-04T12:10:00Z"
+      "createdAt": "2025-09-04"
     },
     {
       "itemID": 4,
@@ -40,9 +34,7 @@
       "description": "Pinterest image search",
       "authorName": "Aminul Sordar",
       "rawID": "goat-pinterest.js",
-      "views": 0,
-      "likes": 0,
-      "createdAt": "2025-09-04T12:15:00Z"
+      "createdAt": "2025-09-04"
     },
     {
       "itemID": 5,
@@ -51,9 +43,7 @@
       "description": "Political news & info",
       "authorName": "Aminul Sordar",
       "rawID": "goat-poli.js",
-      "views": 0,
-      "likes": 0,
-      "createdAt": "2025-09-04T12:20:00Z"
+      "createdAt": "2025-09-04"
     },
     {
       "itemID": 6,
@@ -62,9 +52,7 @@
       "description": "Mirai Pinterest search",
       "authorName": "Aminul Sordar",
       "rawID": "mirai-pinterest.js",
-      "views": 0,
-      "likes": 0,
-      "createdAt": "2025-09-04T12:25:00Z"
+      "createdAt": "2025-09-04"
     },
     {
       "itemID": 7,
@@ -73,9 +61,7 @@
       "description": "Browse marketplace commands",
       "authorName": "Aminul Sordar",
       "rawID": "mirai-cmdstore.js",
-      "views": 0,
-      "likes": 0,
-      "createdAt": "2025-09-04T12:00:00Z"
+      "createdAt": "2025-09-04"
     },
     {
       "itemID": 8,
@@ -84,9 +70,7 @@
       "description": "Check your inbox messages",
       "authorName": "Aminul Sordar",
       "rawID": "mirai-inbox.js",
-      "views": 12,
-      "likes": 10,
-      "createdAt": "2025-09-04T12:05:00Z"
+      "createdAt": "2025-09-04"
     },
     {
       "itemID": 9,
@@ -95,9 +79,7 @@
       "description": "Conversational AI",
       "authorName": "Aminul Sordar",
       "rawID": "mirai-jan.js",
-      "views": 23,
-      "likes": 12,
-      "createdAt": "2025-10-04T09:10:00Z"
+      "createdAt": "2025-10-04"
     },
     {
       "itemID": 10,
@@ -106,98 +88,79 @@
       "description": "Political news & info",
       "authorName": "Aminul Sordar",
       "rawID": "mirai-poli.js",
-      "views": 100,
-      "likes": 76,
-      "createdAt": "2025-10-04T09:20:00Z"
+      "createdAt": "2025-10-04"
     },
     {
-  "itemID": 11,
-  "itemName": "goat-autotime",
-  "type": "utility",
-  "description": "Automatically sends current date and time in a styled format",
-  "authorName": "Aminul Sordar",
-  "rawID": "goat-autotime.js",
-  "views": 0,
-  "likes": 0,
-  "createdAt": "2025-09-06T10:00:00Z"
-},
-  {
-  "itemID": 12,
-  "itemName": "goat animevideo",
-  "type": "VIDEO",
-  "description": "Sends a random anime video fetched from API with styled messages",
-  "authorName": "Aminul Sordar",
-  "rawID": "goat-anivideo.js",
-  "views": 0,
-  "likes": 0,
-  "createdAt": "2025-09-06T10:05:00Z"
+      "itemID": 11,
+      "itemName": "goat-autotime",
+      "type": "utility",
+      "description": "Automatically sends current date and time in a styled format",
+      "authorName": "Aminul Sordar",
+      "rawID": "goat-autotime.js",
+      "createdAt": "2025-09-06"
     },
     {
-  "itemID": 13,
-  "itemName": "goat sing",
-  "type": "AUDIO/VIDEO",
-  "description": "Searches for a song and sends it as audio or video with decorated messages",
-  "authorName": "ArYAN",
-  "rawID": "goat-sing.js",
-  "views": 0,
-  "likes": 0,
-  "createdAt": "2025-09-06T10:10:00Z"
-},
-    {
-  "itemID": 14,
-  "itemName": "goat autolink",
-  "type": "AUDIO/VIDEO",
-  "description": "Automatically downloads videos from a link and sends them with decorated messages",
-  "authorName": "Aminulsordar",
-  "rawID": "goat-autolink.js",
-  "views": 0,
-  "likes": 0,
-  "createdAt": "2025-09-06T10:15:00Z"
+      "itemID": 12,
+      "itemName": "goat animevideo",
+      "type": "VIDEO",
+      "description": "Sends a random anime video fetched from API with styled messages",
+      "authorName": "Aminul Sordar",
+      "rawID": "goat-anivideo.js",
+      "createdAt": "2025-09-06"
     },
     {
-  "itemID": 15,
-  "itemName": "goat shoti",
-  "type": "AUDIO/VIDEO",
-  "description": "Fetches a random short video from your API and sends it with decorated messages",
-  "authorName": "Aminulsordar",
-  "rawID": "goat-shoti.js",
-  "views": 43,
-  "likes": 23,
-  "createdAt": "2025-09-06T10:20:00Z"
+      "itemID": 13,
+      "itemName": "goat sing",
+      "type": "AUDIO/VIDEO",
+      "description": "Searches for a song and sends it as audio or video with decorated messages",
+      "authorName": "ArYAN",
+      "rawID": "goat-sing.js",
+      "createdAt": "2025-09-06"
     },
     {
-  "itemID": 16,
-  "itemName": "goat gemini",
-  "type": "AI",
-  "description": "Chat with Gemini AI using your API and receive a fully decorated reply card with operator info, skills, and timestamp",
-  "authorName": "Aminulsordar",
-  "rawID": "goat-gemini.js",
-  "views": 0,
-  "likes": 0,
-  "createdAt": "2025-09-06T10:35:00Z"
-},
-{
-  "itemID": 17,
-  "itemName": "goat appstore",
-  "type": "SOFTWARE",
-  "description": "Search apps on the Apple App Store with decorated results, ratings, price, developer info, release date, size, and iOS requirements",
-  "authorName": "Aminulsordar",
-  "rawID": "goat-appstore.js",
-  "views": 0,
-  "likes": 0,
-  "createdAt": "2025-09-06T10:45:00Z"
-},
+      "itemID": 14,
+      "itemName": "goat autolink",
+      "type": "AUDIO/VIDEO",
+      "description": "Automatically downloads videos from a link and sends them with decorated messages",
+      "authorName": "Aminulsordar",
+      "rawID": "goat-autolink.js",
+      "createdAt": "2025-09-06"
+    },
     {
-  "itemID": 18,
-  "itemName": "goat weather",
-  "type": "UTILITY",
-  "description": "Get live weather info with decorated text + dynamic weather card image, showing temperature, condition, humidity, wind, and update time",
-  "authorName": "Aminulsordar",
-  "rawID": "goat-weather.js",
-  "views": 0,
-  "likes": 0,
-  "createdAt": "2025-09-06T11:00:00Z"
+      "itemID": 15,
+      "itemName": "goat shoti",
+      "type": "AUDIO/VIDEO",
+      "description": "Fetches a random short video from your API and sends it with decorated messages",
+      "authorName": "Aminulsordar",
+      "rawID": "goat-shoti.js",
+      "createdAt": "2025-09-06"
+    },
+    {
+      "itemID": 16,
+      "itemName": "goat gemini",
+      "type": "AI",
+      "description": "Chat with Gemini AI using your API and receive a fully decorated reply card with operator info, skills, and timestamp",
+      "authorName": "Aminulsordar",
+      "rawID": "goat-gemini.js",
+      "createdAt": "2025-09-06"
+    },
+    {
+      "itemID": 17,
+      "itemName": "goat appstore",
+      "type": "SOFTWARE",
+      "description": "Search apps on the Apple App Store with decorated results, ratings, price, developer info, release date, size, and iOS requirements",
+      "authorName": "Aminulsordar",
+      "rawID": "goat-appstore.js",
+      "createdAt": "2025-09-06"
+    },
+    {
+      "itemID": 18,
+      "itemName": "goat weather",
+      "type": "UTILITY",
+      "description": "Get live weather info with decorated text + dynamic weather card image, showing temperature, condition, humidity, wind, and update time",
+      "authorName": "Aminulsordar",
+      "rawID": "goat-weather.js",
+      "createdAt": "2025-09-06"
     }
-        
   ]
 }
