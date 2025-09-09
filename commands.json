@@ -218,11 +218,20 @@
     },
     {
   "itemID": 25,
-  "itemName": "anistatus",
+  "itemName": "goat anistatus",
   "type": "VIDEO",
   "description": "Fetches random anime TikTok status and sends it as a video with rotating captions.",
   "authorName": "Kshitiz",
   "rawID": "goat-anistatus.js",
+  "createdAt": "2025-09-09"
+    },
+    {
+  "itemID": 26,
+  "itemName": "goat monitor",
+  "type": "UTILITY",
+  "description": "Displays bot uptime and ping with a random Pinterest image.",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-monitor.js",
   "createdAt": "2025-09-09"
     }
   ]
