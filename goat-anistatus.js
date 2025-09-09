@@ -21,7 +21,7 @@ module.exports = {
     name: 'anistatus',
     aliases: ['as'],
     version: '1.0',
-    author: 'Aminul Sordar',
+    author: 'Kshitiz',
     countDown: 5,
     role: 0,
     shortDescription: '🎬 Get random anime status video',
