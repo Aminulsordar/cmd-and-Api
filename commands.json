@@ -179,6 +179,15 @@
   "authorName": "Aminulsordar",
   "rawID": "goat-spy.js",
   "createdAt": "2025-09-06"
-    }
+    },
+    {
+  "itemID": 21,
+  "itemName": "goat imgbb",
+  "type": "IMAGE",
+  "description": "Uploads image to ImgBB and returns a hosted shareable link in a decorated style.",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-imgbb.js",
+  "createdAt": "2025-09-09"
+}
   ]
 }
