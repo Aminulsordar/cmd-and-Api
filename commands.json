@@ -215,6 +215,15 @@
   "authorName": "Aminulsordar",
   "rawID": "goat-logo.js",
   "createdAt": "2025-09-09"
+    },
+    {
+  "itemID": 25,
+  "itemName": "anistatus",
+  "type": "VIDEO",
+  "description": "Fetches random anime TikTok status and sends it as a video with rotating captions.",
+  "authorName": "Kshitiz",
+  "rawID": "goat-anistatus.js",
+  "createdAt": "2025-09-09"
     }
   ]
 }
