@@ -200,11 +200,20 @@
     },
     {
   "itemID": 23,
-  "itemName": "template",
+  "itemName": "goat template",
   "type": "IMAGE",
   "description": "Apply user images onto predefined templates automatically.",
   "authorName": "Aminulsordar",
   "rawID": "goat-template.js",
+  "createdAt": "2025-09-09"
+    },
+    {
+  "itemID": 24,
+  "itemName": "goat logo",
+  "type": "IMAGE",
+  "description": "Generates a custom AI-based logo from a given prompt and returns it with a decorated styled message.",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-logo.js",
   "createdAt": "2025-09-09"
     }
   ]
