@@ -189,13 +189,22 @@
   "rawID": "goat-imgbb.js",
   "createdAt": "2025-09-09"
 },
-    {
+  {
   "itemID": 22,
   "itemName": "goat uptime",
   "type": "UTILITY",
   "description": "Displays decorated bot uptime with exact start time and status info.",
   "authorName": "Aminulsordar",
   "rawID": "goat-uptime.js",
+  "createdAt": "2025-09-09"
+    },
+    {
+  "itemID": 23,
+  "itemName": "template",
+  "type": "IMAGE",
+  "description": "Apply user images onto predefined templates automatically.",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-template.js",
   "createdAt": "2025-09-09"
     }
   ]
