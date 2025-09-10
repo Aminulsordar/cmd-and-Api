@@ -251,6 +251,15 @@
   "authorName": "Aminulsordar",
   "rawID": "goat-pair.js",
   "createdAt": "2025-09-10"
+    },
+    {
+  "itemID": 29,
+  "itemName": "profile",
+  "type": "IMAGE",
+  "description": "Fetch and send profile image of yourself, mentioned user, or replied user in a decorated style.",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-profile.js",
+  "createdAt": "2025-09-10"
     }
   ]
 }
