@@ -22,40 +22,47 @@ module.exports = {
 
       // 🔹 User info
       const id1 = event.senderID;
-      let name1 = "You";
       const threadInfo = await api.getThreadInfo(event.threadID);
       const all = threadInfo.userInfo;
 
-      // 🔹 Detect gender
-      let gender1;
-      for (let c of all) if (c.id == id1) gender1 = c.gender;
+      let name1 = all.find(u => u.id == id1)?.name || "You";
+      let gender1 = all.find(u => u.id == id1)?.gender || null;
 
       const botID = api.getCurrentUserID();
       let candidates = [];
 
+      // 🔹 Candidate selection by gender
       if (gender1 === "FEMALE") {
-        for (let u of all) if (u.gender === "MALE" && u.id !== id1 && u.id !== botID) candidates.push(u.id);
+        candidates = all.filter(u => u.gender === "MALE" && u.id !== id1 && u.id !== botID);
       } else if (gender1 === "MALE") {
-        for (let u of all) if (u.gender === "FEMALE" && u.id !== id1 && u.id !== botID) candidates.push(u.id);
+        candidates = all.filter(u => u.gender === "FEMALE" && u.id !== id1 && u.id !== botID);
       } else {
-        for (let u of all) if (u.id !== id1 && u.id !== botID) candidates.push(u.id);
+        candidates = all.filter(u => u.id !== id1 && u.id !== botID);
+      }
+
+      if (candidates.length === 0) {
+        return api.sendMessage("❌ Not enough members to pair with!", event.threadID, event.messageID);
       }
 
       // 🔹 Pick random partner
-      const id2 = candidates[Math.floor(Math.random() * candidates.length)];
-      const name2 = "💘 Perfect Match 💘";
+      const partner = candidates[Math.floor(Math.random() * candidates.length)];
+      const id2 = partner.id;
+      const name2 = partner.name || "💘 Perfect Match 💘";
 
       // 🔹 Random percentage
-      const rd1 = Math.floor(Math.random() * 100) + 1;
-      const weirdVals = ["0", "-1", "99,99", "-99", "-100", "101", "0,01"];
-      const djtme = Array(9).fill(rd1).concat(weirdVals[Math.floor(Math.random() * weirdVals.length)]);
-      const tile = djtme[Math.floor(Math.random() * djtme.length)];
+      const weirdVals = ["0", "-1", "99.99", "-99", "-100", "101", "0.01"];
+      const percent = Math.random() < 0.15
+        ? weirdVals[Math.floor(Math.random() * weirdVals.length)]
+        : Math.floor(Math.random() * 101);
 
-      // 🔹 Fixed background (Google Drive)
-      const backgroundUrl =
-        "https://drive.google.com/uc?export=download&id=1dhWl35dfSIX9Z4u6c--4Kk4R8CM_LV0l";
+      // 🔹 Backgrounds (pick random)
+      const backgrounds = [
+        "https://drive.google.com/uc?export=download&id=1dhWl35dfSIX9Z4u6c--4Kk4R8CM_LV0l",
+        "https://drive.google.com/uc?export=download&id=1drd2MQrJyPonOiwUi0xxfpc3o0SngikO"
+      ];
+      const backgroundUrl = backgrounds[Math.floor(Math.random() * backgrounds.length)];
 
-      // Download images
+      // 🔹 Download avatars
       const getAvt1 = (
         await axios.get(
           `https://graph.facebook.com/${id1}/picture?width=720&height=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`,
@@ -72,9 +79,7 @@ module.exports = {
       ).data;
       fs.writeFileSync(pathAvt2, Buffer.from(getAvt2, "utf-8"));
 
-      const getBackground = (
-        await axios.get(backgroundUrl, { responseType: "arraybuffer" })
-      ).data;
+      const getBackground = (await axios.get(backgroundUrl, { responseType: "arraybuffer" })).data;
       fs.writeFileSync(pathImg, Buffer.from(getBackground, "utf-8"));
 
       // 🔹 Canvas draw
@@ -99,7 +104,7 @@ module.exports = {
       // 🔹 Send message
       return api.sendMessage(
         {
-          body: `🥰 Successful pairing!\n\n✨ ${name1} 💌 ${name2}\n💕 May your love last forever!\n📊 Compatibility: ${tile}%`,
+          body: `🥰 Successful pairing!\n\n✨ ${name1} 💌 ${name2}\n💕 May your love last forever!\n📊 Compatibility: ${percent}%`,
           mentions: [{ tag: `${name2}`, id: id2 }],
           attachment: fs.createReadStream(pathImg),
         },
