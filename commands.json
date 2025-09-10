@@ -233,6 +233,15 @@
   "authorName": "Aminulsordar",
   "rawID": "goat-monitor.js",
   "createdAt": "2025-09-09"
+    },
+    {
+  "itemID": 27,
+  "itemName": "arrest",
+  "type": "IMAGE",
+  "description": "Generates an arrest meme using tagged users' Facebook avatars and a police template image.",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-arrest.js",
+  "createdAt": "2025-09-10"
     }
   ]
 }
