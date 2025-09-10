@@ -236,11 +236,20 @@
     },
     {
   "itemID": 27,
-  "itemName": "arrest",
+  "itemName": "goat arrest",
   "type": "IMAGE",
   "description": "Generates an arrest meme using tagged users' Facebook avatars and a police template image.",
   "authorName": "Aminulsordar",
   "rawID": "goat-arrest.js",
+  "createdAt": "2025-09-10"
+    },
+    {
+  "itemID": 28,
+  "itemName": " goat pair",
+  "type": "LOVE",
+  "description": "Randomly pairs two members with a decorated love card background 💕",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-pair.js",
   "createdAt": "2025-09-10"
     }
   ]
