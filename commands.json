@@ -278,6 +278,15 @@
   "authorName": "Aminulsordar",
   "rawID": "goat-listbox.js",
   "createdAt": "2025-09-11"
+    },
+    {
+  "itemID": 32,
+  "itemName": "goat bitly",
+  "type": "UTILITY",
+  "description": "Shortens any provided URL using the Bitly API and returns a decorated response.",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-bitly.js",
+  "createdAt": "2025-09-11"
     }
   ]
 }
