@@ -269,6 +269,15 @@
   "authorName": "Aminulsordar",
   "rawID": "goat-help.js",
   "createdAt": "2025-09-11"
+    },
+    {
+  "itemID": 31,
+  "itemName": "goat listbox",
+  "type": "OWNER",
+  "description": "Lists all group chats the bot is in, formatted in a decorated JSON style.",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-listbox.js",
+  "createdAt": "2025-09-11"
     }
   ]
 }
