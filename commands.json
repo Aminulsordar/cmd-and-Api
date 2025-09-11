@@ -260,6 +260,15 @@
   "authorName": "Aminulsordar",
   "rawID": "goat-profile.js",
   "createdAt": "2025-09-10"
+    },
+    {
+  "itemID": 30,
+  "itemName": "goat help",
+  "type": "INFO",
+  "description": "Shows all available commands with pagination and provides detailed information (usage, alias, role, author) for each command in a decorated style.",
+  "authorName": "Aminulsordar",
+  "rawID": "goat-help.js",
+  "createdAt": "2025-09-11"
     }
   ]
 }
