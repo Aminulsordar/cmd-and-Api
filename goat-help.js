@@ -50,7 +50,7 @@ module.exports = {
       let msg = `📖 HELP MENU 📖\n\n`;
 
       for (let item of returnArray) {
-        msg += `🔹 ${++i}. ${item}\n`;
+        msg += `🔹 ${++i}. ${item}❄️\n`;
       }
 
       msg += `\n───────────────\n`;
