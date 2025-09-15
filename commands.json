@@ -101,7 +101,7 @@
     },
     {
       "itemID": 12,
-      "itemName": "goat animevideo",
+      "itemName": "goat anivideo",
       "type": "VIDEO",
       "description": "Sends a random anime video fetched from API with styled messages",
       "authorName": "Aminul Sordar",
